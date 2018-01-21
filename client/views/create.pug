@@ -1,0 +1,10 @@
+extends layout
+block content
+	a.button(href='/') Home
+	hr
+	h1=title
+	form(action='/create', method='POST')
+		input(type='text', name='character', placeholder='Personaje')
+		input(type='text', name='anime', placeholder='anime')
+		input(type='text', name='imageUrl', placeholder='Image URL')
+		input(type='submit', value='Crear Usuario')

@@ -1,0 +1,25 @@
+extends layout
+block content
+	a.button(href='/') Home
+	hr
+	.row
+		.six.columns
+			figure
+				img(src=data.imageUrl)
+
+		.six.columns
+			table
+				tr
+					th Personaje
+					td=data.character
+				tr
+					th Serie
+					td=data.anime
+				tr
+					th Url de imagen
+					td=data.imageUrl
+				tr
+					th 
+						a.button(href='/edit/' + data._id) Editar
+					th
+						a.button(href='/delete/' + data._id + "?_method=DELETE") Borrar

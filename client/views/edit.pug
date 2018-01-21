@@ -1,0 +1,11 @@
+extends layout 
+block content
+	a.button(href='/') Home
+	hr
+	h1 Editar
+	form(action='/edit/' + data._id, method='POST')
+		input(type='hidden', name='_method', value='PUT')
+		input(type='text', name='character', value=data.character)
+		input(type='text', name='anime', value=data.anime)
+		input(type='text', name='imageUrl', value=data.imageUrl)
+		input(type='submit', value='Guardar Cambios')

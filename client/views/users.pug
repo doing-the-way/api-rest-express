@@ -1,0 +1,17 @@
+extends layout
+block content
+	a.button(href='/') Home
+	hr
+	h1 Lista de usuarios.
+	table
+		tr
+			th Personaje
+			th ID
+			th 
+		-for(var i = 0; i < data.length; i++){
+			tr
+				td #{data[i].character} 
+				td #{data[i]._id}
+				td
+					a.button(href='/user/' + data[i]._id) Ver detalles
+		-}

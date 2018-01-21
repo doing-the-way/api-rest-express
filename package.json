@@ -1,0 +1,25 @@
+{
+  "name": "api-rest-express",
+  "version": "1.0.0",
+  "description": "CRUD operations",
+  "main": "main.js",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "express-method-override": "0.0.3",
+    "mongoose": "^5.0.1",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./server/bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "evn",
+  "license": "MIT"
+}
