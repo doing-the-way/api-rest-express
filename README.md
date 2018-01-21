@@ -1,5 +1,3 @@
-### Markdown Preview : grip -b file.md 
-
 # API REST
 ## CRUD Operations
 
@@ -9,3 +7,9 @@ READ | GET
 CREATE | POST 
 UPDATE | PUT 
 DELETE | DELETE 
+
+# start
+```bash
+	$ npm i
+	$ npm start
+```
