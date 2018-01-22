@@ -10,8 +10,11 @@ CREATE | POST
 UPDATE | PUT 
 DELETE | DELETE 
 
-# start
+# Getting starter
 ```bash
+	# Install NPM dependencies
 	$ npm i
+	
+	# Simply start your app with NPM
 	$ npm start
 ```
