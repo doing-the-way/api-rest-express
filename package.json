@@ -5,10 +5,10 @@
   "main": "main.js",
   "dependencies": {
     "bluebird": "^3.5.1",
-    "body-parser": "~1.18.2",
+    "body-parser": "~1.20.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
-    "express": "~4.15.5",
+    "express": "~4.18.2",
     "express-method-override": "0.0.3",
     "mongoose": "^5.0.1",
     "morgan": "~1.9.0",
